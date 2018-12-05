@@ -1,5 +1,5 @@
 {
-  "name": "validator",
+  "name": "jv-validator-handler",
   "version": "1.0.0",
   "description": "js校验策略类",
   "main": "index.js",
@@ -8,6 +8,8 @@
   },
   "keywords": [
     "validator",
+    "validate",
+    "validate-handler",
     "校验"
   ],
   "author": "Juven",

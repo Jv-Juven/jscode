@@ -4,7 +4,7 @@
 # 使用方法
 ## 引用并使用
 ```js
-// 你可以：
+// 你可以：(推荐)
 import { validator } from 'path/to/validator';
 // 或者
 import { Validate } from 'path/to/validator';
