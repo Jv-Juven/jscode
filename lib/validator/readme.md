@@ -157,9 +157,9 @@ if (validator.isType('333', 'isString')) {
 ## `addStrategy` 为该实例添加校验策略
 
 ### params 
-- {Object}
-    - key 策略键名
-    - value {function} 策略函数，返回布尔值，函数入参第一个为`value`，即校验的值，后面的参数为可选的校验时的入参
+- `{Object}`
+    - `key` 策略键名
+    - `value` `{function}` 策略函数，返回布尔值，函数入参第一个为`value`，即校验的值，后面的参数为可选的校验时的入参
 
 ### 用法
 ```js
