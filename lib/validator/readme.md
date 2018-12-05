@@ -139,11 +139,11 @@ console.log(errorMsgs); // ['非数字', '必须小写字母', '必须小于100'
 ## `isType` 判断值是否为指定的类型
 
 ### params
-- value {Any} 校验的值 必填
-- type  {String} 校验的值是否该类型 必填，开头字符可为大小写其他小写
+- `value` `{Any}` 校验的值 必填
+- `type`  `{String}` 校验的值是否该类型 必填，开头字符可为大小写其他小写
 
 ### return
-- true/false {Boolean} 值是否为指定的类型
+- `true`/`false` `{Boolean}` 值是否为指定的类型
 
 ### 用法
 ```js
