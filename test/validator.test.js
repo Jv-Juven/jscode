@@ -1,4 +1,4 @@
-import validator from '../lib/validator';
+import { validator } from '../lib/validator';
 // var assert = require('assert');
 var expect = require('expect.js');
 describe('validator', function () {
