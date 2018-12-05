@@ -1,6 +1,12 @@
 # Validator 校验策略类
 > 鉴于在编写业务过程中会带有不同的数据校验代码，写`Validator`类的主要目的是规范和减少不必要的校验代码。
 
+# 安装下载
+## `npm`
+```bash
+npm i -D jv-validator-handler
+```
+
 # 使用方法
 ## 引用并使用
 ```js
@@ -194,3 +200,5 @@ import { validator } from 'path/to/validator';
 - `isAmount` 是否为精确到两位小数的数字
 - `hasOwn` 判断一个属性是定义在对象本身而不是继承自原型链 必填参数：`key` `{String}` 键名称
 - `isEmptyObject` 判断对象是否空对象
+
+# [`gibhub`地址](https://github.com/Jv-Juven/jscode/tree/master/lib/validator)
