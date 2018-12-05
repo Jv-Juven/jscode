@@ -201,4 +201,4 @@ import { validator } from 'path/to/validator';
 - `hasOwn` 判断一个属性是定义在对象本身而不是继承自原型链 必填参数：`key` `{String}` 键名称
 - `isEmptyObject` 判断对象是否空对象
 
-# [`gibhub`地址](https://github.com/Jv-Juven/jscode/tree/master/lib/validator)
+[`gibhub`地址](https://github.com/Jv-Juven/jscode/tree/master/lib/validator)
