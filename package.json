@@ -8,6 +8,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "cross-env FILE=validator rollup --config rollup.config.js",
     "test": "mocha --require babel-core/register --watch --watch-extensions js"
   },
   "repository": {
@@ -21,9 +22,16 @@
   },
   "homepage": "https://github.com/Jv-Juven/jscode#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^5.2.0",
     "expect.js": "^0.3.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0"
   }
 }
