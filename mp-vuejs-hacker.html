@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微信小程序</title>
+</head>
+<body>
+<script src="./dist/mp-vuejs-hacker.min.js"></script>
+<script>
+    var page = {
+        data: {
+            data: '数据',
+            name: 'mp-hacker',
+            age: 19,
+            attrs: {
+                tall: '179cm',
+                schools: [
+                    '雨花小学',
+                    '镇江一中',
+                    '噶周四中',
+                    '养生大学'
+                ]
+            }
+        },
+        setData(val) {
+            this.data = Object.assign({}, this.data, val);
+            console.log('val', this.data, Object.assign({}, this.data, val));
+        }
+    };
+</script>
+<script>
+    hacker(page);
+</script>
+</body>
+</html>

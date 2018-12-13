@@ -1,0 +1,16 @@
+{
+  "name": "mp-vuejs-hacker",
+  "version": "1.0.0",
+  "description": "改变微信小程序的开发体验，更接近于vuejs开发",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuejs",
+    "miniPrograme",
+    "hack"
+  ],
+  "author": "Juven",
+  "license": "ISC"
+}

@@ -4,13 +4,15 @@ const fileName = process.env.FILE;
 export default {
     input: `./lib/${fileName}/index.js`,
     output: {
-        file: `./lib/${fileName}/dist/${fileName}.min.js`,
-        format: 'cjs'
+        name: 'hacker',
+        file: `./dist/${fileName}.min.js`
+        // format: 'cjs'
     },
     plugins: [
         resolve(),
         babel({
             exclude: 'node_modules/**' // 只编译我们的源代码
         })
-    ]
+    ],
+    format: 'iife'
 };
