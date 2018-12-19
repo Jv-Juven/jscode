@@ -12,7 +12,8 @@
     var page = {
         data: {
             data: '数据',
-            name: 'mp-hacker',
+            firstName: 'mp',
+            lastName: 'hacker',
             age: 19,
             attrs: {
                 tall: '179cm',
@@ -26,7 +27,17 @@
         },
         setData(val) {
             this.data = Object.assign({}, this.data, val);
-            console.log('val', this.data, Object.assign({}, this.data, val));
+            // console.log('val', this.data, Object.assign({}, this.data, val));
+        },
+        computed: {
+            name() {
+                return `${this.firstName} ${this.lastName}`;
+            }
+        },
+        watch: {
+            firstName(val, oldV) {
+                console.log('val:', val, oldV);
+            }
         }
     };
 </script>
