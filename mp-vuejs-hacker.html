@@ -26,7 +26,10 @@
             }
         },
         setData(val) {
-            this.data = Object.assign({}, this.data, val);
+            for (const key in val) {
+                this.data[key] = val[key];
+            }
+            // this.data = Object.assign({}, this.data, val);
             // console.log('val', this.data, Object.assign({}, this.data, val));
         },
         computed: {
