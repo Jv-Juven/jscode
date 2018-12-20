@@ -5,14 +5,14 @@ export default {
     input: `./lib/${fileName}/index.js`,
     output: {
         name: 'hacker',
-        file: `./dist/${fileName}.min.js`
-        // format: 'cjs'
+        file: `./dist/${fileName}.js`,
+        format: 'cjs'
     },
     plugins: [
         resolve(),
         babel({
             exclude: 'node_modules/**' // 只编译我们的源代码
         })
-    ],
-    format: 'iife'
+    ]
+    // format: 'iife'
 };
