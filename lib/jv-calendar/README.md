@@ -37,4 +37,4 @@ const calendarDate = calendar.allDates;
 // calendar.dateFormat(DateString, formatString);
 calendar.dateFormat(1546272000000, 'yyyy-mm-dd'); // 2019-01-01
 ```
-[github](https://github.com/Jv-Juven/jscode/tree/master/lib/calendar)
+[github](https://github.com/Jv-Juven/jscode/tree/master/lib/jv-calendar)
