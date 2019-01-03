@@ -1,6 +1,6 @@
 {
   "name": "jv-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "短租日历输出日期库",
   "main": "index.js",
   "scripts": {
