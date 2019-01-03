@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "cross-env FILE=observe-mp rollup --config rollup.config.js -w",
+    "dev": "cross-env FILE=calendar rollup --config rollup.config.js -w",
     "build": "cross-env FILE=mp-vuejs-hacker rollup --config rollup.config.js",
     "test": "mocha --require babel-core/register --watch --watch-extensions js"
   },

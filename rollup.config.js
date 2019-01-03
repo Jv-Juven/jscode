@@ -6,13 +6,13 @@ export default {
     output: {
         name: 'hacker',
         file: `./dist/${fileName}.js`,
-        format: 'cjs'
+        // format: 'cjs'
     },
     plugins: [
         resolve(),
         babel({
             exclude: 'node_modules/**' // 只编译我们的源代码
         })
-    ]
-    // format: 'iife'
+    ],
+    format: 'iife'
 };
