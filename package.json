@@ -1,6 +1,6 @@
 {
   "name": "jscode",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "一些认为有用的代码片段",
   "main": "index.js",
   "directories": {
