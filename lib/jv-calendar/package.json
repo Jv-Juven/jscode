@@ -1,0 +1,20 @@
+{
+  "name": "jv-calendar",
+  "version": "1.0.0",
+  "description": "短租日历输出日期库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jv-Juven/jscode/tree/master/lib/calendar"
+  },
+  "keywords": [
+    "日历",
+    "calendar",
+    "jv"
+  ],
+  "author": "Juven",
+  "license": "ISC"
+}
